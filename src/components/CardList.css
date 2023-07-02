@@ -1,0 +1,74 @@
+.card-list {
+    margin: 0 auto;
+    height: 450px;
+}
+
+.title-label {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-list button {
+    background-color: #5aac44;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 80px;
+    transition: background-color 85ms ease-in;
+}
+
+.card-list button:hover {
+    background-color: #519839;
+}
+
+.card-list button:active {
+    background-color: #49852e;
+}
+
+.card-list input {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    overflow: auto;
+    width:290px;
+}
+
+.card-list textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    overflow: auto;
+    resize: none;
+    width: 290px;
+}
+
+.card-area {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ebecf0;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
